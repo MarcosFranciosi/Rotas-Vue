@@ -3,7 +3,7 @@
         <span> {{contato.nome}} </span>
         <router-link 
             :to="{ name: 'Detalhes', params: { id: contato.id}}" 
-            class="btn btn-info btn-sm float-end">
+            class="btn btn-info btn-sm float-right">
                 Detalhes
             </router-link>
 
